@@ -9,7 +9,10 @@ class LoginPage extends StatelessWidget {
       body: Container(
         child: Column(
           children: [
-            Text("Login Page")
+            Text("Login Page"),
+            TextField(decoration: InputDecoration(
+              labelText: "Hello"
+            ),)
           ],
         ),
       ),
